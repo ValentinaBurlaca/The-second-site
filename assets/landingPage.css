@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    position: relative;
+}
+
+header {
+    position: relative;
+    border: 1px solid red;;
+}
+
+header img {
+    width: 100%;
+    opacity: 0.3;
+    position: relative;
+    z-index: -1;
+}
+
+nav {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 98.6%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 2em;
+}
+
+nav img {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    opacity: 1;
+
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+
+section {
+    padding-top: 2%;
+    position: relative;
+    border: 1px solid green;
+    height: 800px;
+}
+
+section header {
+    position: relative;
+}
+
+footer {
+    position: relative;
+    border: 1px solid blue;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
